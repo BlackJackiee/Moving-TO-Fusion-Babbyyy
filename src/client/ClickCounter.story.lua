@@ -73,5 +73,8 @@ return function(target)
     }
 }
     print("Started")
-    return function() gui:Destroy() end
+    
+    return function()
+         MainFrame:Destroy()
+     end
 end
