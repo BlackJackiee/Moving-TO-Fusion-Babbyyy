@@ -6,7 +6,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 --Fusion
 local Fusion = require(ReplicatedStorage.Fusion)
-
+local New = Fusion.New
 
 
 
@@ -16,5 +16,5 @@ return function(target)
     
     
     print("Started")
-    return function() gui:Destroy() end
+    return function()    end
 end
